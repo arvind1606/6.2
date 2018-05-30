@@ -24,4 +24,4 @@ for y in df.sex:
     else:
         cols.append('r')
 plt.scatter(df['age'], df['fare'],c=cols, alpha=0.5)
-plt.colorbar();
+plt.show();
